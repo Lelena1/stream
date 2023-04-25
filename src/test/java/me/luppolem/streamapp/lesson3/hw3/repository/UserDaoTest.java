@@ -28,7 +28,5 @@ class UserDaoTest {
         String result = out.getUserByName(WRONG_USER.getName());
 
         assertNull(result);
-        assertEquals(result, null);
-
     }
 }
